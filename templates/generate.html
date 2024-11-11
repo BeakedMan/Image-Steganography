@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<form method="POST" enctype="multipart/form-data">
+    <label for="cover_image">Upload Cover Image:</label><br>
+    <input type="file" name="cover_image" accept="image/*" required><br><br>
+    <label for="secret_message">Enter Secret Message:</label><br>
+    <input type="text" name="secret_message" required><br><br>
+    <input type="submit" value="Generate Authenticated Image">
+</form>
+{% endblock %}

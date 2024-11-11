@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<form method="POST">
+    <label>Select Mode:</label><br>
+    <input type="radio" name="mode" value="generate" required> Generate<br>
+    <input type="radio" name="mode" value="extract" required> Extract<br><br>
+    <input type="submit" value="Continue">
+</form>
+{% endblock %}
