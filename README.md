@@ -19,11 +19,6 @@ This is a web application that allows users to embed and extract secret messages
   - [Interactive Characteristics](#interactive-characteristics)   
   - [Generate Mode](#generate-mode)
   - [Extract Mode](#extract-mode)
-- [Directory Structure](#directory-structure)
-- [Important Notes](#important-notes)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Features
 
