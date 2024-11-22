@@ -92,10 +92,7 @@ http://localhost:5000
 >**Generator Model:** If you have a pre-trained generator model (generator_model.pth), place it in the models directory. Otherwise, the generator will use random weights.
 
 >[!Note]
->**Image Formats:** Use lossless image formats like PNG to prevent compression artifacts from affecting the embedded data.
-
->[!Note]
 >**Message Length:** The maximum length of the secret message depends on the image size and redundancy factor. For larger messages, adjust the redundancy or image size accordingly.
 
 >[!Note]
->**Security Considerations:** Simple LSB steganography is not secure against steganalysis attacks. Use more advanced methods for sensitive applications.
+>**Image Formats:** Use lossless image formats like PNG to prevent compression artifacts from affecting the embedded data.
